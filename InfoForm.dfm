@@ -1,0 +1,40 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Form2'
+  ClientHeight = 40
+  ClientWidth = 450
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Bevel1: TBevel
+    Left = 3
+    Top = 3
+    Width = 444
+    Height = 34
+  end
+  object SearchProgressLabel: TLabel
+    Left = 12
+    Top = 13
+    Width = 425
+    Height = 16
+    AutoSize = False
+    Caption = 'SearchProgressLabel'
+    EllipsisPosition = epEndEllipsis
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    WordWrap = True
+  end
+end
